@@ -23,7 +23,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost:81/asp2/';
+// $config['base_url'] = 'http://localhost:81/asp2/';
+$config['base_url'] = 'http://example.com/asp2/';
+
 // $config['base_url'] = "http://&#8221;.$_SERVER['HTTP_HOST'];
 // $config['base_url'] .= preg_replace('@/+$@',",dirname($_SERVER['SCRIPT_NAME'])).'/';
 

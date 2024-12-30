@@ -1,0 +1,201 @@
+:root {
+	--primary-color: rgba(0, 163, 157);
+	--secondary-color: #f6ad3c;
+	--cancel-color: red;
+	--text-color: white;
+}
+
+.btnlogin{
+
+	background-color: var(--primary-color);
+	border: none;
+	color: var(--text-color);
+	padding: 10px 12px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: .5rem;
+	display: inline-block;
+	font-size: 12px;	
+}
+.btnbase{
+	background-color: var(--primary-color);
+	border: none;
+	color: var(--text-color);
+	padding: 10px 12px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 10%;
+	display: inline-block;
+	font-size: 12px;	
+
+}
+
+.btnbase:hover{
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+
+}
+
+.btnsave{
+	background-color: var(--primary-color);
+		border: none;
+		color: var(--text-color);
+		padding: 10px 12px;
+		text-align: center;
+		text-decoration: none;
+		border-radius: 10%;
+		display: inline-block;
+		font-size: 11px;	
+		margin-bottom: .5rem;
+
+}
+.btncancel{
+	background-color: red;
+		border: none;
+		color: var(--text-color);
+		padding: 10px 12px;
+		text-align: center;
+		text-decoration: none;
+		border-radius: 10%;
+		display: inline-block;
+		font-size: 11px;
+}
+.addarchi{
+	background-color: var(--primary-color);
+	border: none;
+	color: var(--text-color);
+	padding: 10px 12px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 10%;
+	display: inline-block;
+	font-size: 12px;
+	margin-bottom: .5rem;
+}
+/* .btnsavearch{
+	background-color: var(--primary-color);
+		border: none;
+		color: var(--text-color);
+		padding: 10px 12px;
+		text-align: center;
+		text-decoration: none;
+		border-radius: 10%;
+		display: inline-block;
+		font-size: 12px;
+		margin-top: .2rem;
+
+} */
+.btnsave:hover,
+.addarchi:hover{
+background-color: var(--secondary-color);
+}
+
+.btninfo {
+	padding: 10px 12px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	color: var(--secondary-color);
+}
+.btninfo:hover{
+	color: var(--primary-color);
+}
+
+
+.btncancelarch{
+	background-color: rgb(203, 219, 232);
+		border: none;
+		color: black;
+		padding: 10px 12px;
+		text-align: center;
+		text-decoration: none;
+		border-radius: 10%;
+		display: inline-block;
+		font-size: 12px;
+		margin-top: .2rem;
+
+
+}
+.btncancelarch:hover{
+	background-color: var(--secondary-color);
+}
+.btngridd{
+	background-color: var(--primary-color);
+	border: none;
+	color: var(--text-color);
+	padding: 10px 12px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 10%;
+	display: inline-block;
+	font-size: 12px;
+	margin-top: 3rem;
+}
+.btngrid {
+	margin-right: 0.6rem;
+	margin-top: 1rem;
+}
+.btnedit {
+	padding: 10px 12px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+.btnhapus {
+	padding: 10px 12px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 10%;
+	display: inline-block;
+	font-size: 10px;
+	color: rgb(255, 6, 6);
+}
+
+.btnfilter{
+	background-color: var(--primary-color);
+	color: var(--text-color);
+	padding: 5px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.btnfilter:hover{
+	background-color: var(--secondary-color);
+}
+
+.dropbtn1 {
+	background-color: var(--secondary-color);
+	color: var(--text-color);
+	padding: 5px;
+	margin-right: 5rem;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.dropdown:hover .dropbtn1 {
+	background-color: var(--secondary-color);
+}
+.btnclose {
+	background-color: red;
+	border: none;
+	color: white;
+	padding: 10px 12px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 10%;
+	display: inline-block;
+	font-size: 12px;
+	margin-bottom: 0.5rem;
+}
+/* .btnclosearch {
+	background-color: red;
+	border: none;
+	color: white;
+	padding: 5px 10px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 100%;
+	display: inline-block;
+	font-size: 12px;
+	margin-bottom: 0.5rem;
+} */

@@ -1,0 +1,67 @@
+html,
+body {
+  height: 100%;
+}
+.input h1{
+    text-align: center;
+}
+.input{
+  margin-top: 2.1rem;
+}
+.form-signin {
+  max-width: 330px;
+  padding: 1rem;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="text"] {
+  margin-bottom: 1rem;
+  border-radius: .5rem;
+}
+.form-signin input[type="email"] {
+  margin-bottom: 1rem;
+  border-radius: .5rem;
+
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 9px;
+  border-radius: .5rem;
+
+}
+
+
+h1 .title{
+  color: pink;
+}
+
+.logo {
+  width: 100px;
+}
+.header_home {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  z-index: 1000;
+  background-color: #fff;
+margin-top: 10px;
+padding: 10px 20px;
+  border-bottom: 2px solid #e18a00;
+}
+.title {
+  font-size: 28px;
+  color: black;
+}
+
+.subtitle {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #e18a00;
+}
+
+.right-logo {
+  width: 150px;
+}

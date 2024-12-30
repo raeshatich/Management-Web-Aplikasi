@@ -1,0 +1,36 @@
+.img{
+	margin-left: 20px;
+    width: 100%;
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+ 
+.current-image {
+    width: 100px; /* Small size for the current image */
+    height: auto;
+    cursor: pointer;
+}
+ 
+.hover-popup {
+    display: none;
+	width: 100%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    margin-left: 10px;
+    z-index: 10;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+ 
+.old-image {
+    width: 500%; /* Larger size for the old image */
+    height: auto;
+}
+ 
+.image-container:hover .hover-popup {
+    display: block;
+}

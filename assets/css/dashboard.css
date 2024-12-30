@@ -1,0 +1,411 @@
+:root {
+	--primary-color: rgba(0, 163, 157);
+	--secondary-color: #f6ad3c;
+}
+.bi {
+	display: inline-block;
+	width: 1rem;
+	height: 1rem;
+}
+body{
+	overflow-x: hidden;
+	margin: 0;
+}
+#status {
+	margin-bottom: .7rem;
+	width: 15em;
+	margin-left: 0;
+}
+
+th{
+text-align: center;
+}
+a {
+	color: black;
+	text-decoration: none;
+  }
+
+.btn-modal{
+	cursor: pointer;
+}
+
+@media (min-width: 768px) {
+	.sidebar .offcanvas-lg {
+		position: -webkit-sticky;
+		position: sticky;
+		bottom: 0;
+		top: 48px;
+	}
+	.navbar-search {
+		display: block;
+	}
+	.d-grid{
+		margin-top: 10px;
+	}
+}
+
+.sidebar .nav-link {
+	font-size: 0.875rem;
+	font-weight: 500;
+}
+
+.sidebar .nav-link.active {
+	color: white;
+	background-color: var(--secondary-color);
+}
+.sidebar .nav-link {
+	color: rgb(20, 20, 20);
+	font-size: 0.8rem;
+}
+.nav-item :hover {
+	background-color: var(--secondary-color);
+}
+
+.sidebar-heading {
+	font-size: 0.75rem;
+}
+
+/*
+   * Navbar
+   */
+
+.navbar-brand {
+	padding-top: 0.75rem;
+	padding-bottom: 0.75rem;
+	background-color: var(--primary-color);
+	box-shadow: var(--primary-color);
+}
+.navbar {
+	background-color: var(--primary-color);
+}
+.navbar .nav-item:hover{
+	background-color:var(--secondary-color)
+	
+}
+.navbar .nav-item.active{
+	background-color: var(--secondary-color);
+}
+
+.navbar .form-control {
+	padding: 0.75rem 1rem;
+}
+.dropbtn {
+	background-color: var(--primary-color);
+	color: white;
+	padding: 14px;
+	font-size: 13px;
+	margin-right: 5rem;
+	border: none;
+	cursor: pointer;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	width: 100%;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	border-radius: .1rem;
+}
+
+.dropdown-content a {
+	color: black;
+	font-size: 0.9rem;
+	padding: 5px 13px;
+	text-decoration: none;
+	display: block;
+	margin-bottom: .2rem;
+	margin-top: .2rem;
+}
+
+.dropdown-content a:hover {
+	background-color: var(--secondary-color);
+	border-radius: 3rem;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: var(--secondary-color);
+}
+
+/*  */
+
+.h2 {
+	font-size: 1rem;
+}
+
+tr{
+	font-size: .8rem;
+}
+
+th.dns {
+	width: 10%;
+}
+#logout {
+	bottom: 20px;
+}
+
+
+
+
+
+
+.form-control,
+.form-group{
+	font-size: .9rem;
+	margin-top: .1rem;
+}
+
+#filter-form{
+	align-items: end;
+}
+
+.filter-container {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+  }
+   
+  .filter-item {
+	margin-right: 10px;
+  }
+   
+  .filter-item label {
+	display: block;
+	margin-bottom: 5px;
+  }
+   
+  .data-table {
+	width: 100%;
+	border-collapse: collapse;
+  }
+   
+  
+ .filter{
+	margin-left: 2rem;
+	width: 40%;
+ }
+.btnexport{
+	/* background-color: var(--secondary-color); */
+	border: none;
+	color: rgb(255, 255, 255);
+	padding: 5px 25px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 10%;
+	display: inline-block;
+	font-size: .7rem;
+}
+
+
+.btnexport:hover{
+	background-color: var(--primary-color);
+}
+
+.status{
+	font-size: 1rem;
+}
+.spanapp{
+	color: red;
+}
+
+
+
+
+
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	width: 100%;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	border-radius: .1rem;
+}
+
+.dropdown-content a {
+	color: black;
+	font-size: 0.9rem;
+	padding: 5px 13px;
+	text-decoration: none;
+	display: block;
+	margin-bottom: .2rem;
+	margin-top: .2rem;
+}
+
+.dropdown-content a:hover {
+	background-color: var(--secondary-color);
+	border-radius: 3rem;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+
+
+.selected{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-right: 10px;
+}
+/* .image {
+	width: 200px;
+	height: 200px;
+	border: 4px solid #575D63;
+	padding: 10px;
+	margin: 20px;
+} */
+/* Gaya untuk tombol */
+.popup-button {
+	padding: 10px 20px;
+	background-color: #007bff;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+/* Gaya untuk overlay popup */
+.popup-overlay {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	justify-content: center;
+	align-items: center;
+}
+
+/* Gaya untuk konten popup */
+.popup-content {
+	background-color: white;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	text-align: center;
+}
+
+/* Gaya untuk gambar di dalam popup */
+.popup-content img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 5px;
+}
+
+/* Gaya untuk tombol tutup */
+.close-popup {
+	margin-top: 10px;
+	padding: 5px 10px;
+	background-color: #dc3545;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 12px;
+}
+#wrapper {
+	position: relative;
+	margin: 0px auto 0px auto;
+	border: 1px solid;
+}
+
+
+/* Begin styling the to oltips and pins */
+.pin {
+	display: none;
+}
+
+/* Begin styling the tooltips and pins */
+.pinpos {
+	position: absolute;
+}
+
+.screeninfo {
+	font: 10px Arial, Helvetica;
+	margin: 0px auto 0px 20px;
+
+}
+
+
+/* 
+
+.btntambah {
+	margin-top: 0.1rem;
+	background-color: var(--primary-color);
+	border: none;
+	color: white;
+	padding: 10px 12px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 10%;
+	display: inline-block;
+	font-size: 12px;
+	margin-right: 0.4rem;
+}
+.btntambah:hover
+ {
+	background-color:var(--secondary-color);
+}
+
+
+.btnclose {
+	background-color: red;
+	border: none;
+	color: white;
+	padding: 10px 12px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 10%;
+	display: inline-block;
+	font-size: 12px;
+	margin-bottom: 0.5rem;
+}
+.btnadd {
+	background-color: var(--primary-color);
+	border: none;
+	color: white;
+	padding: 10px 12px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 10%;
+	display: inline-block;
+	font-size: .7rem;
+	margin-right: 0.4rem;
+}
+.btnaddapp {
+	border: none;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+
+}
+.btnaddapp:hover{
+	color: var(--secondary-color);
+}
+
+.btnadd:hover,
+
+.btnclose:hover {
+	background-color: #f6ad3c;
+} */
